@@ -45,6 +45,8 @@ class ProductDetailsScreen extends StatelessWidget {
                 fontWeight: FontWeight.w700,
               ),
             ),
+            SizedBox(height: 20,),
+            Text("inclusive of all taxes ", style: TextStyle(color: Colors.black),),
           ],
         ),
       ),
