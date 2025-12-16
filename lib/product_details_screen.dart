@@ -47,6 +47,8 @@ class ProductDetailsScreen extends StatelessWidget {
             ),
             SizedBox(height: 20,),
             Text("inclusive of all taxes ", style: TextStyle(color: Colors.black),),
+            ElevatedButton(onPressed: (){}, child: Text("Add to cart"))
+            
           ],
         ),
       ),
